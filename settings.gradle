@@ -1,0 +1,5 @@
+rootProject.name='KTMall'
+include ':app'
+include ':baselib'
+include ':provider'
+include ':usercenter'
