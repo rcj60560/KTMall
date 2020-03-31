@@ -18,8 +18,8 @@ class RegisterActivity : BaseMVPActivity<RegisterPresenter>(), RegisterView {
         mPresenter = RegisterPresenter()
         mPresenter.mView = this;
         btnResgiter.setOnClickListener {
-//            Toast.makeText(this, "haha", Toast.LENGTH_SHORT).show()
-//            toast("sfdf");
+            Toast.makeText(this, "haha", Toast.LENGTH_SHORT).show()
+            toast("sfdf");
             mPresenter.register("", "");
         }
     }
